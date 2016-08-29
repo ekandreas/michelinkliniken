@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "5156e6de0b2d32f0057d2ffa34234eb5",
-    "content-hash": "9705e5a90c06a8a2609181721e21aa0e",
+    "hash": "de40593d55e70fed27c7b9db93fd6590",
+    "content-hash": "98c6db26c5cd47de968c3be3a6dfa558",
     "packages": [
         {
             "name": "composer/installers",
@@ -106,6 +106,28 @@
                 "zikula"
             ],
             "time": "2016-04-13 19:46:30"
+        },
+        {
+            "name": "ekandreas/valet-deploy",
+            "version": "0.5.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ekandreas/valet-deploy.git",
+                "reference": "7ed76a606ebd6fbd31e155b565e965aa25d0f6de"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ekandreas/valet-deploy/zipball/7ed76a606ebd6fbd31e155b565e965aa25d0f6de",
+                "reference": "7ed76a606ebd6fbd31e155b565e965aa25d0f6de",
+                "shasum": ""
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Support package for deploying Valet develop environments for Laravel and WordPress/Bedrock",
+            "time": "2016-05-31 09:40:41"
         },
         {
             "name": "johnpbloch/wordpress",
